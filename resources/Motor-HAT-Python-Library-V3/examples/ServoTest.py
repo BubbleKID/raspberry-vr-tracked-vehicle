@@ -25,7 +25,7 @@ def setServoPulse(channel, pulse):
   pwm.setPWM(channel, 0, int(pulse))
 
 
-// Angle to PWM
+# Angle to PWM
 def write(servonum,x):
   y=x/90.0+0.5
   y=max(y,0.5)
